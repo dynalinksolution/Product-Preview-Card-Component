@@ -83,6 +83,9 @@ button {
 
 
 @media (min-width: 48em) {
+    button:hover, button:focus {
+        background: var(--Green-700);
+    }
     .product-card {
         flex-direction: row;
         width: unset;
